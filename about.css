@@ -1,0 +1,232 @@
+/*the about section*/
+#about{
+    background-color: rgba(0, 0, 0, 0.966);
+    height: 200vh;
+  }
+  .about-header{
+    background-image: url(pic9.jpeg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+    background-size: 100%;
+    width: 100%;
+    height: 25%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 0px 0px 40px 40px;
+  }
+  h3{
+    color: aqua;
+    font-size: 4vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 255, 0.473);
+  }
+  .img{
+    width: 350px;
+    height: 35%;
+    border: 3px solid aqua;
+    margin-left: 5%;
+    margin-top: 4%;
+    border-radius: 15px;
+    box-shadow: 4px 5px 7px black;
+    
+  }
+  .intro-about{
+    color:  rgba(255, 255, 255, 0.747);
+    width: 50%;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 45%;
+    margin-top: -29%;
+    font-size: 20px;
+  }
+  .h4{
+    font-size: 3vw;
+    color: aqua;
+  }
+  .spotify{
+    width: 40%;
+    height: 50px;
+    text-align: center;
+    font-size: large;
+    border: 1px solid aqua;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    transition: all 0.5s ease-in;
+  }
+  .spotify:hover{
+    background-color: rgba(0, 255, 255, 0.76);
+    transform: scale(1.1);
+  }
+  .upcoming > span{
+    display: block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    width: 20%;
+    margin-left: 38%;
+    color: beige;
+    margin-top: 2%;
+  }
+  .mpr{
+    font-size: 3vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: #fff;
+    transition: width 0.2s linear;
+  }
+  .mpr:hover{
+    color: aqua;
+  }
+  .dat{
+    font-size: xx-large;
+  }
+  #upcoming-pic{
+    width: 100px;
+    height: 100px;
+    margin-top: -2%;
+  }
+  .pic-loca{
+    font-size: 28px;
+    font-weight: 200;
+  }
+  .btn > button{
+    width: 140px;
+    height: 50px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid indianred;
+    border-radius: 12px;
+    transition: all 0.4s ease-in-out;
+  }
+  .btn > button:hover{
+    background-color: indianred;
+    color: black;
+    border: none;
+  }
+  @media only screen and (min-width: 550px) and (max-width: 768px) {
+    .about-header{
+      height: 20%;
+      border-radius: 0px 0px 30px 30px;
+    }
+    .img{
+      width: 200px;
+      height: 25%;
+      border: none;
+      box-shadow: 2px 2px 1px black;
+      margin-left: 1%;
+      margin-top: 10%;
+      margin-bottom: 2%;
+      
+    }
+    .intro-about{
+      width: 55%;
+      margin-left: 40%;
+      margin-top: -45%;
+      font-size: 15px;
+    }
+    .spotify{
+      width: 53%;
+      height: 38px;
+      font-size: 15px;
+      
+    }
+    .upcoming > span{
+      width: 40%;
+      margin-top: 4%;
+    }
+    .dat{
+      font-size: x-large;
+    }
+    .btn > button{
+      width: 120px;
+      height: 40px;
+    
+    }
+  }
+    @media only screen and (min-width: 426px) and (max-width: 549px) {
+      .about-header{
+        height: 20%;
+        border-radius: 0px 0px 30px 30px;
+      }
+      .img{
+        width: 185px;
+        height: 23%;
+        border: 2px solid aqua;
+        margin-left: 35%;
+        margin-top: 4%;
+        
+      }
+      .intro-about{
+        width: 100%;
+        margin-left: 0%;
+        margin-top: 0%;
+        font-size: 15px;
+      }
+      .spotify{
+        width: 53%;
+        height: 35px;
+        font-size: 15px;
+        
+      }
+      .upcoming > span{
+        width: 55%;
+        margin-top: 4%;
+        margin-left: 25%;
+      }
+      .dat{
+        font-size: x-large;
+      }
+      .btn > button{
+        width: 120px;
+        height: 35px;
+      
+      }
+    }
+    @media only screen and (min-width: 200px) and (max-width: 425px) {
+      .about-header{
+        height: 25%;
+        border-radius: 0px 0px 30px 30px;
+      }
+      .img{
+        width: 150px;
+        height: 20%;
+        border: 2px solid aqua;
+        margin-left: 30%;
+        margin-top: 5%;
+        
+      }
+      .intro-about{
+        width: 98%;
+        margin-left: 2%;
+        margin-top: 1%;
+        font-size: 13px;
+      }
+      .spotify{
+        width: 50%;
+        height: 25px;
+        font-size: 10px;
+        
+      }
+      .upcoming > span{
+        width: 100%;
+        margin-top: 3%;
+        margin-left: 0%;
+      }
+      #upcoming-pic{
+        width: 60px;
+        height: 60px;
+        margin-top: -2%;
+      }
+      .dat{
+        font-size: larger;
+      }
+      .btn > button{
+        width: 130px;
+        height: 35px;
+      
+      }
+    }
